@@ -4,12 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQUERY</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: greenyellow;
+        }
+
+        .active{
+            background: orange;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
     
 
+    <p>Hello World</p>
+    <div class="txt">TEST</div>
+    <div id="id" style="display: none;">INI ID</div>
+
+    <button class="openButton" style="cursor: pointer;">Double Click to Open</button>
+    <div class="file">
+        <ul>
+            <li>File 1</li>
+            <li>File 2</li>
+            <li>File 3</li>
+            <li>File 4</li>
+            <li>File 5</li>
+        </ul>
+    </div>
+
+    <button class="openButton2" style="cursor: pointer;">Double Click to Open</button>
+    <div class="file">
+        <ul>
+            <li>File 1</li>
+            <li>File 2</li>
+            <li>File 3</li>
+            <li>File 4</li>
+            <li>File 5</li>
+        </ul>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <div style="padding-top: 20px;">
+            <p class="alert" style="color: red; display: none">Email Harus diisi</p>
+            <label for="">Email Anda : </label>
+            <input type="email" id="email"/>
+        </div>
+        
+        <div style="padding-top: 20px;">
+            <p class="alert2" style="color: red; display: none">Nama Harus diisi</p>
+            <label for="">Nama Anda : </label>
+            <input type="text" id="name"/>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="box">
+    </div>
+    <br>
+    <button class="changeButton">Change</button>
+    <button class="changeButton">Change</button>
+    <button class="changeButton">back</button>
+
+    <br><br>
+    <input type="checkbox" class="inputTerm" checked="false"/>
+    <label for="">Terms and Condition</label>
+    <button class="btnSubmit" >Submit</button>
 
 
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
