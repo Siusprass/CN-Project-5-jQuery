@@ -93,6 +93,31 @@ $(document).ready(function(){
    })
 
 
+   //validation form
+   $('#validation').validate({
+    rules:{
+        height:{
+            required : true,
+            minlength : 2
+        },
+
+        weight:{
+            required : true,
+            minlength : 2
+        }
+    },
+    messages:{
+        height:{
+            required: "Data harus diisi",
+            minlength: "harus lebih dari 2 angka"
+        },
+        weight:{
+            required: "Data harus diisi",
+            minlength: "harus lebih dari 2 angka"
+        }
+    }
+   });
+
 
 
 

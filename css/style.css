@@ -88,7 +88,7 @@ h4{
 
 @media (max-width:468px){
     .btn{
-        width: 15px;
-        height: 15px;
+        max-width: 15px;
+        max-height: 15px;
     }
 }
